@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API_Regression_Suite">
+    <test verbose="2" preserve-order="true" name="API_Test">
+        <classes>
+            <class name="Tests.CreateUserTest"/>
+            <class name="Tests.GetUserTest"/>
+        </classes>
+    </test>
+</suite>
